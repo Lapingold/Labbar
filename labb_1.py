@@ -18,4 +18,4 @@ if int(choice) == 2:
     sqrt = math.sqrt(2)
     tetrah = ((sqrt/12)*side**3)            
     round_off = round(tetrah, 4)            # Rounds off with 4 decimals
-    print(f"The tetrahedron's volume is {round_off} cm3")
+    print(f"The tetrahedron's volume is {round_off} cm\u00b3")
