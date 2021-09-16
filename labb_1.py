@@ -11,7 +11,7 @@ choice = (input("Choose 1: Cube, or 2: Tetrahedron "))
 if int(choice) == 1:
     side = float(input("Enter the length of one side of the cube (cm): "))
     cube = (side ** 3)
-    print(f'The cube is {cube} in cm3')
+    print(f'The cube is {cube} in cm\u00b3')
 
 if int(choice) == 2:
     side = float(input("Enter the length of one side of the tetrahedron (cm): "))
