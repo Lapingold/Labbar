@@ -1,2 +1,2 @@
 # Labbar
-Here i will post my Labb reports
+Here I will post my Labb reports.
