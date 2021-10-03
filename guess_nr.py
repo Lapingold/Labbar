@@ -1,13 +1,11 @@
 import random
 
-
-random_number = random.randint(1, 10)
-
+random_number = random.randint(1, 100)
 
 print('''
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Guess the randomized number, it's between 1-1000.
+Guess the randomized number, it's between 1-100.
 You have 10 tries.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -17,7 +15,6 @@ guesses = [1]
 points = 1000
 tries = 10
 guess = int(input("Guess a number: "))
-
 
 while random_number != "guess" and tries > 0:
     if guess > random_number:
