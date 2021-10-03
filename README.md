@@ -1,2 +1,2 @@
 # Labbar
-Labb 2 del 3
+Labb 2, del 3
